@@ -67,12 +67,12 @@ function OverviewSection() {
         },
     ]
     return (
-        <section class="container overview ">
+        <section className="container overview ">
        <h1>Overview - Today</h1>
-       <article class="row mt-4  ">
+       <article className="row mt-4  ">
          {overviewArr.map((divElement) => {
              return (
-                <div class={divElement.mainClass + " col-md-6 pe-xl-3 pe-md-3 col-xl-3 px-3 mb-4"}>
+                <div className={divElement.mainClass + " col-md-6 pe-xl-3 pe-md-3 col-xl-3 px-3 mb-4"}>
                  <OverviewCard
                   heading = {divElement.heading}
                   logo = {divElement.logo}
@@ -80,7 +80,6 @@ function OverviewSection() {
                   percent = {divElement.percent}
                   upDown = {divElement.upDown}
                  />   
-               
               </div>
              )
          })}

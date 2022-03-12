@@ -8,11 +8,11 @@ function Header(props) {
         <h1>Social Media Dashboard</h1>
         <h4>Total Followers: 23,004</h4>
       </section>
-      <hr class="d-md-none" size = '3'></hr>
+      <hr className="d-md-none" size = '3'></hr>
       <section className="mode col row justify-content-between  align-items-center pe-0 pe-md-3">
         <span className="theme-name col text-md-end">Dark Mode</span>
         <div className="theme-switcher col text-end p-0 ms-2 " onClick={props.themeSwitcher}>
-          <div className="toggler text-start" data-toggleTo={props.toggleTo}></div>
+          <div className="toggler text-start" data-toggleto={props.toggleTo}></div>
         </div>
       </section>
     </header>
