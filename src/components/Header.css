@@ -1,0 +1,49 @@
+h1 {
+    color: var(--header-text);
+}
+
+h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+ h4 {
+    color: var(--subtext);
+}
+
+h4 {
+    font-size: 1.09rem;
+    font-weight: 700;
+}
+
+hr {
+    color: var(--subtext);
+}
+
+.theme-name{
+    color:  var(--subtext);
+    font-weight: 700;
+    font-size: 1.04rem;
+
+}
+.theme-switcher {
+    background: var(--theme-switcher);
+    max-width: 55px;
+    height: 28px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.toggler {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: var(--toggler);
+    margin: 2px 2px;
+    transition: 0.35s;
+}
+
+[data-toggleTo='light'] {
+    transform : translateX(27.5px);
+}
+

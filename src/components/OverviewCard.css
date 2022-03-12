@@ -1,0 +1,28 @@
+.overview .card {
+    border: none;
+}
+
+.overview .views {
+    color: var(--subtext);
+    font-weight: 700;
+}
+.overview .num {
+    color: var(--header-text);
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.overview .percent {
+    color: hsl(163, 72%, 41%);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.fb-likes .percent, .yt-likes .percent, .total-views .percent {
+    color: hsl(356, 69%, 56%)    ;
+}
+
+.views-logo, .num-percent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
